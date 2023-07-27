@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
     <div class="container">
       <a class="navbar-brand" href="/">POSFIN</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
             <a class="nav-link {{ ($title === "About") ? 'active' : '' }}" href="/about">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {{ ($title === "Posts") ? 'active' : '' }}" href="/blog">Berita</a>
+            <a class="nav-link {{ ($title === "Posts") ? 'active' : '' }}" href="/posts">Berita</a>
           </li>
         </ul>
       </div>
